@@ -12,6 +12,18 @@ class TweenAnimationScreen extends StatefulWidget {
 class _TweenAnimationScreenState extends State<TweenAnimationScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          children: const [
+            Text(
+              "Welcome User",
+              style: TextStyle(fontSize: 20),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
